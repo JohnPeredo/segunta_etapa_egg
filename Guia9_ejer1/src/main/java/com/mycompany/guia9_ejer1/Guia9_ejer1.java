@@ -15,7 +15,6 @@ public class Guia9_ejer1 {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in).useDelimiter("\n"); //abajo de class
         String letra;
-        System.out.println("Hello World!");
         CadenaServicio servicio = new CadenaServicio();
         servicio.rellenar();//bien
         servicio.mostrarVocales();//bien
